@@ -1,0 +1,576 @@
+body{
+    position: relative;
+    top: 40px;
+    left: 30px;
+    width: 1300px;
+    height:5000;
+ 
+}
+.link{
+   text-decoration:none;
+   color: black;
+}
+.link1{
+    text-decoration:none;
+    color: black;
+ }
+.title{
+    position:relative;
+    color: red;
+    font-size: 40px;
+    bottom: 20px;
+    left: 28%;
+    font-weight: 700;
+}
+span{
+    font-size: 22px;
+}
+.main-nav{
+    position: relative;
+    left: 260px;
+    height: 120px;
+    
+    
+}
+.me-auto{
+    position: relative;
+    right: 120px;
+    top: 32px;
+}
+.home{
+    font-size: 20px;
+    margin-left: 60px;
+    text-decoration: none;
+    color: rgb(42, 39, 39);
+    
+}
+.banner{
+ width: 1000px;
+ height: 400px;
+ margin-left: 20px;
+ margin-top: 30px;
+ 
+}
+.Top1{
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+}
+.table{
+    padding: 20px 10px 10px 30px;
+    width: 120px;
+    height:280px;
+    background-color:whitesmoke;
+    margin-top: 30px;
+    box-shadow: 5px 5px 5px 5px gray;
+}
+.table:hover{
+    background-color:rgb(241, 239, 237);
+    border-radius: 20px;
+    cursor: pointer;
+
+    }
+.H-Card{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 60px 0px 0px 30px;
+}
+.Comp-Home{
+    background-color: whitesmoke;
+    border-radius: 10px;
+    width: 270px;
+    height:360px;
+    border: 2px solid rgb(209, 204, 204);
+    margin: 30px;
+    padding: 20px;
+    box-shadow: 5px 5px 5px 5px gray;
+    
+}
+.Comp-Home:hover{
+background-color:rgb(241, 239, 237);
+border-radius: 20px;
+cursor: pointer;
+transform: scale(1.05);
+transition: all 0.5s ease;
+
+}
+.img-Name{
+    padding:5px;
+    text-align: center;
+    border: 1px solid rgb(216, 215, 212);
+}
+.value-price{
+    color: red;
+    margin-left: 40px;
+    
+}
+.oldvalue-price{
+    color: gray;
+text-decoration: line-through;
+}
+
+.range-box{
+    width: 280px;
+    height: 150px;
+    background-color:whitesmoke;
+    border: 1px solid rgb(216, 215, 212);
+    text-align: center;
+    padding-top: 10px;
+    margin-top: 60px;
+    box-shadow: 5px 5px 5px 5px gray;
+}
+.range-box:hover{
+    background-color:rgb(241, 239, 237);
+    border-radius: 20px;
+    cursor: pointer;
+
+    }
+/* .box{
+    position: relative;
+    left: 20px;
+    bottom: 400px;
+    width: 100px;
+    width: 100px;
+    background-color: blueviolet; 
+     border: 1px solid 1px black;
+} */
+.color-box{
+    width: 280px;
+    height: 100px;
+    background-color: whitesmoke;
+    border: 1px solid rgb(216, 215, 212);
+    text-align: center;
+    padding-top: 5px;
+    margin-top: 50px;
+    box-shadow: 5px 5px 5px 5px gray;
+}
+.color-box:hover{
+    background-color:rgb(241, 239, 237);
+    border-radius: 20px;
+    cursor: pointer;
+
+    }
+
+.c-1{
+    margin: 10px;
+    width: 20px;
+    height: 20px;
+    color: blue;
+}
+.c-1:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: all 0.5s ease;
+}
+.c-2{
+    margin: 10px;
+    width: 20px;
+    height: 20px;
+    color: red;
+}
+.c-3{
+    margin: 10px;
+    width: 20px;
+    height: 20px;
+    color: black;
+}
+.c-3:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: all 0.5s ease;
+}
+.c-4{
+    margin: 10px;
+    width: 20px;
+    height: 20px;
+    color: pink;
+}
+.c-5{
+    margin: 10px;
+    width: 20px;
+    height: 20px;
+    color:purple;
+}
+.c-5:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: all 0.5s ease;
+  
+    }
+.table-box{
+    margin-top: 70px;
+    font-size: 20px;
+    padding: 25px 10px 10px 60px;
+    width: 280px;
+    height:280px;
+    background-color:whitesmoke;
+    box-shadow: 5px 5px 5px 5px gray;
+}
+.table-box:hover{
+    background-color:rgb(241, 239, 237);
+    border-radius: 20px;
+    cursor: pointer;
+    color: blue;
+    }
+
+.big{
+display: flex;
+flex-direction: row;
+}
+
+.top-bar{
+position: relative;
+text-align: center;
+bottom: 20px;
+ height: 50px;
+ background-color:whitesmoke;
+}
+
+.icon1{
+    margin-left:700px;
+    
+}
+.user{
+    color: black;
+}
+.user:hover{
+    background-color:rgb(241, 239, 237);
+    cursor: pointer;
+    transform: scale(1.08);
+    transition: all 0.5s ease;
+    
+    }
+    
+.icon-name{
+font-size: 16px;
+margin-left: 10px;
+}
+.icon1:hover{
+    background-color:rgb(241, 239, 237);
+    cursor: pointer;
+    transform: scale(1.05);
+    transition: all 0.5s ease;
+    
+    }
+.icon2{
+    margin-left:40px;
+}
+
+.icon-name1{
+    margin-left: 10px;
+    font-size: 15px;
+    }
+
+.serch{
+    margin-left:120px;
+    color:black;
+}
+.serch:hover{
+    background-color:rgb(241, 239, 237);
+    cursor: pointer;
+    transform: scale(1.05);
+    transition: all 0.5s ease;
+    
+    }
+.star{
+ margin-left: 70px;
+ margin-top: 10px;
+ color: gold;
+
+}
+.star5{
+   color: gray;
+   
+   }
+   .bannerStore{
+    width: 100%;
+    height: 60%;
+    
+    margin-top: 30px;
+   }
+   
+   table{
+    width:900px;
+    height: 300px;
+    background-color:whitesmoke;
+    position: relative;
+    left: 200px;
+    z-index: 3;
+    
+   }
+   .pok{
+    position: relative;
+    bottom: 410px;
+   }
+   th{
+    color: gray;
+    padding: 20px;
+   }
+   td{
+    padding: 20px;
+   }
+   .footer{
+    display: flex;
+    
+    flex-direction: row;
+    width: 100%;
+    height: 300px;
+    background-color: black;
+    margin-left: 30px;
+    color: white;
+   }
+   .f-1{
+    margin:30px 0px 0px 00px;
+    text-align: center;
+   }
+   .f-2{
+    margin:30px 0px 0px 150px;
+    text-align: center;
+   }
+   .f-3{
+    margin:30px 0px 0px 150px;
+    text-align: center;
+   }
+   .f-4{
+    margin:30px 0px 0px 150px;
+    text-align: center;
+   }
+   .h4{
+    font-weight: 800;
+   }
+   .p{
+    font-weight: 500;
+   }
+   .ic{
+    margin:10px;
+   }
+   @media  screen and (max-width:414px){ 
+
+
+    
+    body{
+        position: relative;
+        top: 20px;
+        left: 10px;
+        width: 416px;
+        height:5000;
+        /* background-color: lightgray; */
+        /* border: 2px solid black; */
+    }
+ 
+    .title{
+        
+        font-size: 20px;
+        top:5px;
+        left: 30%;
+        
+    }
+    span{
+        font-size: 22px;
+    }
+    .main-nav{
+        position: relative;
+        left: -10px;
+        height: 70px;
+        /* border: 1px solid rgb(60, 58, 58); */
+    }
+    .me-auto{
+       
+        right: -60px;
+        top: 10px;
+    }
+    .home{
+        font-size: 22px;
+        
+    }
+    .banner{
+     width:413px;
+     height: 280px;
+     margin-left:-10px;
+     margin-top: 30px;
+    }
+    .Top1{
+        display:block;
+       
+    }
+    .table{
+        font-size: 16px;
+        width:20px;
+        height:280px;
+        margin-top: 240px;
+        margin-right: 10px;
+    }
+    .table:hover{
+        border-radius: 10px;
+        
+        }
+    .H-Card{
+        display:block;
+        margin: 60px 0px 0px 30px;
+    }
+    
+    .range-box{
+        padding-top: 10px;
+        margin-top: 60px;
+        margin-left: 50px;
+    }
+    .color-box{
+        
+        margin-left: 50px;
+    }
+    
+    
+    .table-box{
+        margin-left: 50px;
+      
+    }
+
+    .big{
+    display: block;
+    
+    }
+    
+    .top-bar{
+    position: relative;
+    text-align: center;
+    bottom: 15px;
+    height: 30px;
+    background-color:whitesmoke;
+    }
+    .icon1{
+        margin-left:-35px;
+    }
+
+    .user{
+        color: black;
+        font-size: 15px;
+    }
+    
+    .icon-name{
+    font-size: 16px;
+    margin-left: 10px;
+    }
+  
+    .icon2{
+        margin-left:40px;
+    
+    }
+    .home1{
+        font-size: 20px;
+    }
+
+    .icon-name1{
+        margin-left: 10px;
+        font-size: 15px;
+    }
+    
+    .serch{
+        margin-left:90px;
+       font-size: 15px;
+    }
+    .bannerStore{
+     width:600px;
+     height:600px;
+     margin-top: 125px;
+    }
+
+    table{
+    width:200px;
+    height: 300px;
+    position: relative;
+    top: 200px;
+    left: 50px;
+    z-index: 2;
+
+    }
+    .banner-zindex{
+     position: relative;
+     bottom: 405px;
+       }
+       th{
+
+        padding: 10px;
+       }
+       td{
+        padding: 20px;
+       }
+       .footer{
+        display:block;
+       }
+     
+   }
+   .buttn{
+    width: 120px;
+    height: 35px;
+    border-radius: 10px;
+    background-color: rgb(214, 214, 195);
+    color: rgb(46, 30, 30);
+    position: relative;
+    top: 15px;
+    left: 50px;
+    
+   }
+ button{
+    font-weight: 500;
+    font-size: 18px;
+    box-shadow: 5px 5px  gray;
+ }
+ button:hover{
+    background-color:rgb(29, 143, 29);
+    cursor: pointer;
+    transform: scale(1.08);
+    transition: all 0.5s ease;
+    
+    }
+ .crt{
+    margin-left: 30px;
+    text-decoration: none;
+    color:blue;
+    font-size: 25px;
+    font-weight: 600;
+    box-sizing: 10px 10px 10px 20px blue;
+ }
+ .crt:hover{
+    color:green;
+    
+    }
+ .insert-title{
+    background-color: whitesmoke;
+    color:black;
+    font-weight: 600;
+   margin-left: 60px;
+   margin-top: 20px;
+ }
+ .insert-title span{
+    margin-left:17%;
+ }
+ .insert-page{
+    width: 1100px;
+    height: 200px;
+    text-align: center;
+    padding: 30px;
+    background-color:whitesmoke;
+    margin-left:10%;
+    margin-top: 50px;
+    box-shadow: 5px 5px 5px 5px gray;
+ }
+ .insert-page span{
+    margin-left:17%;
+ }
+ .insert-name{
+ position: relative;
+ right: 40px;
+ }
+ .insert-Q{
+    position: relative;
+    right: 20px;
+ }
+ .insert-price{
+    position: relative;
+    left: 20px;
+ }
+ .hr{
+    margin-left: 10%;
+    margin-top: 40px;
+ }
